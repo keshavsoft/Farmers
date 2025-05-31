@@ -1,0 +1,1 @@
+{"TableName":"Farmers","DataPath":"Data","Columns":["Col1","Col2"],"ColumnsWithSchema":[{"ColumnName":"Col1","unique":true,"type":"STRING"},{"ColumnName":"Col2","unique":false,"type":"NUMBER"}]}
