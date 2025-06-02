@@ -1,0 +1,90 @@
+{
+    "header": [
+        [
+            "PARTYNAME",
+            "VOUCHERTYPE",
+            "DATE",
+            "REFERENCE",
+            "VOUCHER_CANCELLED"
+        ]
+    ],
+    "data": [
+        {
+            "PARTYNAME": "Bhaskara Cycle Stores GOLLAPROLU",
+            "VOUCHERTYPE": "SALES",
+            "DATE": "23-May-24",
+            "REFERENCE": "-",
+            "VOUCHER_CANCELLED": "No"
+        },
+        {
+            "PARTYNAME": "Annapurna Cycle Stores, Indrapalem",
+            "VOUCHERTYPE": "SALES",
+            "DATE": "23-May-24",
+            "REFERENCE": "-",
+            "VOUCHER_CANCELLED": "No"
+        },
+        {
+            "PARTYNAME": "Kodandarama Cycle St Pedapudi",
+            "VOUCHERTYPE": "SALES",
+            "DATE": "23-May-24",
+            "REFERENCE": "-",
+            "VOUCHER_CANCELLED": "No"
+        },
+        {
+            "PARTYNAME": "Cash",
+            "VOUCHERTYPE": "SALES",
+            "DATE": "23-May-24",
+            "REFERENCE": "-",
+            "VOUCHER_CANCELLED": "No"
+        },
+        {
+            "PARTYNAME": "Cash",
+            "VOUCHERTYPE": "SALES",
+            "DATE": "23-May-24",
+            "REFERENCE": "-",
+            "VOUCHER_CANCELLED": "No"
+        },
+        {
+            "PARTYNAME": "Cash",
+            "VOUCHERTYPE": "SALES",
+            "DATE": "23-May-24",
+            "REFERENCE": "-",
+            "VOUCHER_CANCELLED": "No"
+        },
+        {
+            "PARTYNAME": "Cash",
+            "VOUCHERTYPE": "SALES",
+            "DATE": "23-May-24",
+            "REFERENCE": "-",
+            "VOUCHER_CANCELLED": "No"
+        },
+        {
+            "PARTYNAME": "Cash",
+            "VOUCHERTYPE": "SALES",
+            "DATE": "23-May-24",
+            "REFERENCE": "-",
+            "VOUCHER_CANCELLED": "No"
+        },
+        {
+            "PARTYNAME": "Cash",
+            "VOUCHERTYPE": "SALES",
+            "DATE": "23-May-24",
+            "REFERENCE": "-",
+            "VOUCHER_CANCELLED": "No"
+        },
+        {
+            "PARTYNAME": "Sri Krishna Veni Cycle and Gen St",
+            "VOUCHERTYPE": "SALES",
+            "DATE": "23-May-24",
+            "REFERENCE": "-",
+            "VOUCHER_CANCELLED": "No"
+        },
+        {
+            "PARTYNAME": 0,
+            "VOUCHERTYPE": 0,
+            "DATE": 0,
+            "REFERENCE": 0,
+            "VOUCHER_CANCELLED": 0
+        }
+    ]
+}
