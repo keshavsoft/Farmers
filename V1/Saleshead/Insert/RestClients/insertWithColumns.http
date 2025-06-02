@@ -1,4 +1,4 @@
-POST http://localhost:3000/V1/Farmers/Insert/InsertWithColumns
+POST http://localhost:3000/V1/Saleshead/Insert/InsertWithColumns
 Content-Type: application/json
 
 {
