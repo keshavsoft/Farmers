@@ -1,0 +1,2 @@
+DELETE http://localhost:3000/V1/Items/Delete/WithPk/1
+Content-Type: application/json

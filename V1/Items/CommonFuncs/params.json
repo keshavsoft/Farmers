@@ -1,0 +1,21 @@
+{
+    "TableName": "Items",
+    "DataPath": "Data",
+    "Columns": [
+            "ItemName",
+            "ItemRate"
+    ],
+    "ColumnsWithSchema": [
+        {
+            "ColumnName": "ItemName",
+            "unique": true,
+            "type": "STRING"
+        },
+        {
+            "ColumnName": "ItemRate",
+            "unique": true,
+            "type": "NUMBER"
+        }
+        
+    ]
+}

@@ -1,0 +1,8 @@
+POST http://localhost:3000/V1/Items/Insert/InsertWithColumns
+Content-Type: application/json
+
+{
+	"ItemName" : "choco",
+	"ItemRate" : "7"
+  
+}
