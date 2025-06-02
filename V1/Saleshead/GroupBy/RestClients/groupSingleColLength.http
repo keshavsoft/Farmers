@@ -1,1 +1,1 @@
-GET http://localhost:{PORT}{SubRoute}/GroupSingleColLength/{ColumnName}
+GET http://localhost:3000/V1/Saleshead/GroupSingleColLength/{ColumnName}

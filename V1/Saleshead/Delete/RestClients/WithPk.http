@@ -1,2 +1,2 @@
-DELETE http://localhost:3000/V1/Farmers/Delete/WithPk/{pk}
+DELETE http://localhost:3000/V1/Saleshead/Delete/WithPk/{pk}
 Content-Type: application/json

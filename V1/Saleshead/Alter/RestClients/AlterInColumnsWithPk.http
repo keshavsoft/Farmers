@@ -1,4 +1,4 @@
-POST http://localhost:3000/V1/Farmers/Alter/WithPk/{pk}
+POST http://localhost:3000/V1/Saleshead/Alter/WithPk/{pk}
 Content-Type: application/json
 
 {
