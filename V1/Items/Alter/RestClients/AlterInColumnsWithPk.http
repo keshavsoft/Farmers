@@ -1,0 +1,7 @@
+POST http://localhost:3000/V1/Items/Alter/WithPk/2
+Content-Type: application/json
+
+{
+	"ItemName" : "pyse",
+	"ItemRate" : "4"
+}

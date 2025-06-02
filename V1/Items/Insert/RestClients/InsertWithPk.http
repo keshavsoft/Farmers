@@ -1,0 +1,7 @@
+POST http://localhost:3000/V1/Items/Insert/InsertWithPk
+Content-Type: application/json
+
+{
+        "ItemName":"Biscut",
+        "ItemRate":66
+}
