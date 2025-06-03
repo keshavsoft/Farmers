@@ -1,11 +1,7 @@
 [
   {
-    "ItemName": "pen",
-    "ItemRate": 5
-  },
-  {
-    "ItemName": "pyse",
-    "ItemRate": "4",
+    "ITEMNAME": "Shirt",
+    "ITEMRATE": "500",
     "pk": 2
   }
 ]
