@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "FARMERNAME": "esh",
+    "FARMERMOBILE": "1234567890",
+    "FARMERCITY": "v",
+    "FARMERFIELD": "sugar cane",
+    "pk": 1
+  }
+]
