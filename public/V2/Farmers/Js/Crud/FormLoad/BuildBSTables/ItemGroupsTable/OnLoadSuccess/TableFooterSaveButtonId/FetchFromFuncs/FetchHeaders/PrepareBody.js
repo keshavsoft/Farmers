@@ -41,7 +41,7 @@ let jFLocalToInputTableFooterFarmerFieldInputId = () => {
     let jVarLocalTableFooterFarmerFieldInputId = document.getElementById(jVarLocalHtmlId);
 
     if (jVarLocalTableFooterFarmerFieldInputId === null === false) {
-        jVarLocalTableFooterFarmerFieldInputId.value.trim();
+        return jVarLocalTableFooterFarmerFieldInputId.value.trim();
     };
 };
 export { StartFunc }
