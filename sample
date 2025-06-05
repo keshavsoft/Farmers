@@ -1,0 +1,129 @@
+D:\keshav\may27\Farmers\V1\Items\AggregateFunctions\Count\Controllers\entryFile.js
+import {
+    GetFunc as GetFuncRepo
+} from '../Repos/entryFile.js';
+
+let GetFunc = (req, res) => {
+    let LocalFromRepo = GetFuncRepo();
+
+    if (LocalFromRepo.KTF === false) {
+        res.status(404).send(LocalFromRepo.KReason);
+        return;
+    }
+
+    res.status(200).json(LocalFromRepo.JsonData);
+};
+
+export {
+    GetFunc
+};
+
+
+D:\keshav\may27\Farmers\V1\Items\AggregateFunctions\Count\dals\entryFile.js
+import { StartFunc as StartFuncFromReadFromFile } from '../KFs/readFromFile.js';
+
+let GetFunc = () => {
+    let LocalFromLowDb = StartFuncFromReadFromFile();
+    
+    return {
+        KTF: LocalFromLowDb.KTF,
+        JsonData: { count: LocalFromLowDb.JsonData.length }
+    };
+};
+
+export {
+    GetFunc
+};
+
+
+D:\keshav\may27\Farmers\V1\Items\AggregateFunctions\Count\KFs\readFromFile.js
+import fs from "fs";
+import ParamsJson from '../../../CommonFuncs/params.json' with {type: 'json'};
+
+let StartFunc = () => {
+    const LocalFileName = ParamsJson.TableName;
+    const LocalDataPath = ParamsJson.DataPath;
+
+    let LocalReturnData = { KTF: false };
+    let filePath = `${LocalDataPath}/${LocalFileName}.json`;
+
+    try {
+        if (!fs.existsSync(filePath)) {
+            LocalReturnData.KReason = `${LocalFileName}.json File does not exist in ${LocalDataPath} Folder.`;
+            console.warn(LocalReturnData.KReason);
+            return LocalReturnData;
+        }
+
+        const data = fs.readFileSync(filePath, 'utf8');
+
+        LocalReturnData.KTF = true;
+        LocalReturnData.JsonData = JSON.parse(data);
+    } catch (err) {
+        LocalReturnData.KReason = `Error reading ${LocalFileName} file.`;
+        console.warn(LocalReturnData.KReason);
+        return LocalReturnData;
+    }
+
+    return LocalReturnData;
+};
+
+export { StartFunc };
+
+
+D:\keshav\may27\Farmers\V1\Items\AggregateFunctions\Count\Repos\entryFile.js
+import {
+    GetFunc as GetFuncDal
+} from '../dals/entryFile.js';
+
+let GetFunc = () => {
+    return GetFuncDal();
+};
+
+export {
+    GetFunc
+};
+
+
+D:\keshav\may27\Farmers\V1\Items\AggregateFunctions\Count\Routes\entryFile.js
+import express from 'express';
+
+var router = express.Router();
+
+import {
+    GetFunc
+} from '../Controllers/entryFile.js';
+
+router.get('/', GetFunc);
+
+export { router };
+
+
+D:\keshav\may27\Farmers\V1\Items\AggregateFunctions\Count\routes.js
+import express from 'express';
+
+const router = express.Router();
+
+import { GetFunc } from './Controllers/entryFile.js'; // Import the controller function
+
+// Define the route for the Count endpoint
+router.get('/', GetFunc);
+
+export { router };
+
+
+D:\keshav\may27\Farmers\V1\Items\AggregateFunctions\routes.js
+import express from 'express';
+
+const router = express.Router();
+
+import { router as routerFromCount } from "./Count/routes.js";
+
+router.use("/Count", routerFromCount);
+
+export { router };
+
+D:\keshav\may27\Farmers\V1\Items\AggregateFunctions\RestClients\Count.http
+GET http://localhost:3000/V1/Items/AggregateFunctions/Count
+
+
+but what if i need to check min for different column so i need to give /Min/{ColumnName} in testing endpoint like there may be expenditures or profit etc but it may be any column , the code should give min based on the column change the code
