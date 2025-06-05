@@ -156,11 +156,15 @@
                                     </th>
                                     <th>
                                         <div class="input-group">
-                                            <input class="form-control" id="TableFooterItemCategoryInputId"
-                                                type="number" placeholder="Enter FarmerMobile">
-                                            <div class="invalid-feedback">
-                                                Please provide correct Mobile.
-                                            </div>
+                                            <input name="Mobile" id="TableFooterItemCategoryInputId" type="number"
+                                                placeholder="Enter FarmerCity" class="form-control" autocomplete="off"
+                                                id="TableFooterItemCategoryInputId"
+                                                list="TableFooterItemCategoryInputId" required
+                                                oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)">
+                                            <datalist id="TableFooterItemCategoryInputId">
+                                                <div class="invalid-feedback">
+                                                    Please provide correct Mobile.
+                                                </div>
                                         </div>
                                     </th>
 
