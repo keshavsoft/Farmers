@@ -3,5 +3,6 @@ Content-Type: application/json
 
 {
         "ItemName":"Biscut",
+        "Expenditure": "23",
         "ItemRate":66
 }
