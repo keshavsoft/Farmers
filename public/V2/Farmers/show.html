@@ -52,72 +52,60 @@
 
 
                     <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-
-                        <!-- Home -->
+                       
                         <li>
-                            <a href="../Farmers/Farmers.html"
-                                class="nav-link text-white text-center @@if (context.page === 'home') { active }">
-                                <i class="bi bi-house d-block mb-1" style="font-size: 1.5rem;"></i>
-                                Home
+                            <a href="../Farmers/Farmers.html" class="nav-link text-white text-center">
+                                <i class="bi bi-house d-block mb-1" style="font-size: 1.5rem;"></i> Home
                             </a>
                         </li>
 
-                        <!-- Parent -->
+                        
                         <li class="nav-item">
-                            <a href="./Farmers.html"
-                                class="nav-link text-white d-flex flex-column align-items-center @@if (context.page === 'parent') { active }">
+                            <a href="./Farmers.html" class="nav-link text-white d-flex flex-column align-items-center">
                                 <i class="bi bi-arrow-90deg-left d-block mb-1" style="font-size: 1.5rem;"></i>
                                 <span>Parent</span>
                             </a>
                         </li>
 
-                        <!-- Insert -->
+                       
                         <li class="nav-item">
-                            <a class="nav-link text-white text-center @@if (context.page === 'insert') { active }"
-                                href="./Create.html">
-                                <i class="bi bi-plus-circle-fill d-block mb-1" style="font-size: 1.5rem;"></i>
+                            <a class="nav-link text-white text-center" href="./create.html">
+                                <i class="bi bi-plus-circle-fill text-primary d-block mb-1" style="font-size: 1.5rem;"></i>
                                 Insert
                             </a>
                         </li>
 
-                        <!-- Insert Footer -->
+
+                     
                         <li class="nav-item">
-                            <a class="nav-link text-white text-center @@if (context.page === 'insertFooter') { active }"
-                                href="./Create.html">
-                                <i class="bi bi-building-add d-block mb-1" style="font-size: 1.5rem;"></i>
+                            <a class="nav-link text-white text-center" href="./crud.html">
+                                <i class="bi bi-building-add text-info d-block mb-1" style="font-size: 1.5rem;"></i>
                                 Insert Footer
                             </a>
                         </li>
 
-                        <!-- Show -->
-                        <li class="nav-item">
-                            <a class="nav-link bg-success text-dark rounded text-center @@if (context.page === 'show') { active }"
+                        <li class="nav-item active">
+                            <a class="nav-link text-white rounded text-center bg-light bg-opacity-25"
                                 href="./show.html">
-                                <i class="bi bi-eye-fill d-block mb-1" style="font-size: 1.5rem;"></i>
+                                <i class="bi bi-eye-fill text-success d-block mb-1 fs-4"></i>
                                 Show
                             </a>
                         </li>
 
-                        <!-- Alter -->
                         <li class="nav-item">
-                            <a class="nav-link text-white text-center @@if (context.page === 'alter') { active }"
-                                href="./Alter.html">
-                                <i class="bi bi-pencil-square d-block mb-1" style="font-size: 1.5rem;"></i>
-                                Alter
+                            <a class="nav-link text-white text-center" href="./alter.html">
+                                <i class="bi bi-pencil-square  text-warning d-block mb-1" style="font-size: 1.5rem;"></i>
+                               Alter
                             </a>
                         </li>
 
-                        <!-- Delete -->
                         <li class="nav-item">
-                            <a class="nav-link text-white text-center @@if (context.page === 'delete') { active }"
-                                href="./Delete.html">
-                                <i class="bi bi-trash-fill d-block mb-1" style="font-size: 1.5rem;"></i>
+                            <a class="nav-link text-white text-center" href="./Delete.html">
+                                <i class="bi bi-trash-fill text-danger d-block mb-1" style="font-size: 1.5rem;"></i>
                                 Delete
                             </a>
                         </li>
-
                     </ul>
-
                 </div>
             </div>
         </div>
