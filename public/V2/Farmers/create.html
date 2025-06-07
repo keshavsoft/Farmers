@@ -51,14 +51,13 @@
                     </a>
 
                     <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                        <!-- Home -->
+
                         <li>
                             <a href="../Farmers/Farmers.html" class="nav-link text-white text-center">
                                 <i class="bi bi-house d-block mb-1" style="font-size: 1.5rem;"></i> Home
                             </a>
                         </li>
 
-                        <!-- Parent -->
                         <li class="nav-item">
                             <a href="./Farmers.html" class="nav-link text-white d-flex flex-column align-items-center">
                                 <i class="bi bi-arrow-90deg-left d-block mb-1" style="font-size: 1.5rem;"></i>
@@ -66,42 +65,39 @@
                             </a>
                         </li>
 
-                        <!-- Insert (highlighted) -->
-                        <li class="nav-item">
-                            <a class="nav-link bg-primary text-dark rounded text-center" href="./Create.html">
-                                <i class="bi bi-plus-circle-fill d-block mb-1" style="font-size: 1.5rem;"></i>
+                        <li class="nav-item active">
+                            <a class="nav-link text-white rounded text-center bg-light bg-opacity-25"
+                                href="./create.html">
+                                <i class="bi bi-plus-circle-fill text-primary d-block mb-1 fs-4"></i>
                                 Insert
                             </a>
                         </li>
 
-                        <!-- Insert Footer -->
                         <li class="nav-item">
                             <a class="nav-link text-white text-center" href="./crud.html">
-                                <i class="bi bi-building-add text-white d-block mb-1" style="font-size: 1.5rem;"></i>
+                                <i class="bi bi-building-add text-info d-block mb-1" style="font-size: 1.5rem;"></i>
                                 Insert Footer
                             </a>
                         </li>
 
-                        <!-- Show -->
                         <li class="nav-item">
                             <a class="nav-link text-white text-center" href="./show.html">
-                                <i class="bi bi-eye-fill text-white d-block mb-1" style="font-size: 1.5rem;"></i>
+                                <i class="bi bi-eye-fill text-success d-block mb-1" style="font-size: 1.5rem;"></i>
                                 Show
                             </a>
                         </li>
 
-                        <!-- Alter -->
                         <li class="nav-item">
-                            <a class="nav-link text-white text-center" href="./Alter.html">
-                                <i class="bi bi-pencil-square text-white d-block mb-1" style="font-size: 1.5rem;"></i>
+                            <a class="nav-link text-white text-center" href="./alter.html">
+                                <i class="bi bi-pencil-square l text-warning d-block mb-1"
+                                    style="font-size: 1.5rem;"></i>
                                 Alter
                             </a>
                         </li>
 
-                        <!-- Delete -->
                         <li class="nav-item">
                             <a class="nav-link text-white text-center" href="./Delete.html">
-                                <i class="bi bi-trash-fill text-white d-block mb-1" style="font-size: 1.5rem;"></i>
+                                <i class="bi bi-trash-fill text-danger d-block mb-1" style="font-size: 1.5rem;"></i>
                                 Delete
                             </a>
                         </li>
@@ -113,11 +109,11 @@
             </div>
         </div>
 
-       
+
 
     </header>
     <main>
-         <div class="container">
+        <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb mb-4">
                     <li class="breadcrumb-item bi bi-house d-block mb-1"><a href="#"></a></li>
@@ -125,66 +121,67 @@
                     <li class="breadcrumb-item"><a href="#">Insert <Footer></Footer></a></li>
             </nav>
 
-        <div class="container mt-5">
-            <div class="card">
-                <div class="card-body">
-                    <form onsubmit="return false" id="FormId">
-                        <div class="mb-3 row">
-                            <label class="col-sm-4 col-form-label">FarmerName</label>
-                            <div class="col-sm-8">
-                                <input name="FarmerName" type="text" class="form-control" required autocomplete="off"
-                                    autofocus>
-                                <div class="invalid-feedback">
-                                    FarmerName should not be empty!
+            <div class="container mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <form onsubmit="return false" id="FormId">
+                            <div class="mb-3 row">
+                                <label class="col-sm-4 col-form-label">FarmerName</label>
+                                <div class="col-sm-8">
+                                    <input name="FarmerName" type="text" class="form-control" required
+                                        autocomplete="off" autofocus>
+                                    <div class="invalid-feedback">
+                                        FarmerName should not be empty!
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="mb-3 row">
-                            <label class="col-sm-4 col-form-label">FarmerMobile</label>
-                            <div class="col-sm-8">
-                                <input name="FarmerMobile" type="tel" class="form-control" pattern="[0-9]{10}"
-                                    maxlength="10" required>
-                                <div class="invalid-feedback">
-                                    Please enter a valid 10-digit FarmerMobile number!
+                            <div class="mb-3 row">
+                                <label class="col-sm-4 col-form-label">FarmerMobile</label>
+                                <div class="col-sm-8">
+                                    <input name="FarmerMobile" type="tel" class="form-control" pattern="[0-9]{10}"
+                                        maxlength="10" required>
+                                    <div class="invalid-feedback">
+                                        Please enter a valid 10-digit FarmerMobile number!
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="mb-3 row">
-                            <label class="col-sm-4 col-form-label">FarmerCity</label>
-                            <div class="col-sm-8">
-                                <input name="FarmerCity" type="text" class="form-control" required>
-                                <div class="invalid-feedback">
-                                    Please enter FarmerCity
+                            <div class="mb-3 row">
+                                <label class="col-sm-4 col-form-label">FarmerCity</label>
+                                <div class="col-sm-8">
+                                    <input name="FarmerCity" type="text" class="form-control" required>
+                                    <div class="invalid-feedback">
+                                        Please enter FarmerCity
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="mb-3 row">
-                            <label class="col-sm-4 col-form-label">FarmerField</label>
-                            <div class="col-sm-8">
-                                <input name="FarmerField" type="text" class="form-control" required>
-                                <div class="invalid-feedback">
-                                    Please enter FarmerField
+                            <div class="mb-3 row">
+                                <label class="col-sm-4 col-form-label">FarmerField</label>
+                                <div class="col-sm-8">
+                                    <input name="FarmerField" type="text" class="form-control" required>
+                                    <div class="invalid-feedback">
+                                        Please enter FarmerField
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="text-center mt-4">
-                            <button id="SaveButtonId" class="btn btn-primary px-4 RefreshBSTableClass">Create</button>
-                        </div>
-                    </form>
-                    <!-- <div id="responseAlert" class="alert alert-info alert-dismissible fade show d-none mt-3"
+                            <div class="text-center mt-4">
+                                <button id="SaveButtonId"
+                                    class="btn btn-primary px-4 RefreshBSTableClass">Create</button>
+                            </div>
+                        </form>
+                        <!-- <div id="responseAlert" class="alert alert-info alert-dismissible fade show d-none mt-3"
                         role="alert">
                         <span class="alert-message"></span>
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div> -->
+                    </div>
                 </div>
+
+
             </div>
-
-
-        </div>
     </main>
 
     <footer class="mt-5 border-top text-dark" style="margin-top: 7rem !important;">
