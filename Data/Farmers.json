@@ -14,52 +14,17 @@
     "pk": 2
   },
   {
-    "ITEMNAME": "ed",
-    "ITEMCATEGORY": "1",
-    "ITEMGROUP": "ds",
-    "pk": 3
-  },
-  {
-    "ITEMNAME": "c",
-    "ITEMCATEGORY": "cvd",
-    "ITEMGROUP": "d",
-    "pk": 4
-  },
-  {
-    "ITEMNAME": "z",
-    "ITEMCATEGORY": "c",
-    "ITEMGROUP": "c",
-    "pk": 5
-  },
-  {
-    "FARMERNAME": "D",
-    "FARMERMOBILE": "F",
-    "FARMERCITY": "F",
-    "pk": 6
-  },
-  {
     "FARMERNAME": "F",
     "FARMERMOBILE": "F",
-    "FARMERCITY": "G",
-    "pk": 7
-  },
-  {
-    "FARMERNAME": "WD",
-    "FARMERMOBILE": "F",
-    "FARMERCITY": "G",
-    "pk": 8
+    "FARMERCITY": "Grapes",
+    "pk": 7,
+    "FARMERFIELD": "undefined"
   },
   {
     "FARMERNAME": "D",
     "FARMERMOBILE": "D",
     "FARMERCITY": "D",
     "pk": 9
-  },
-  {
-    "FARMERNAME": "DF",
-    "FARMERMOBILE": "F",
-    "FARMERCITY": "G",
-    "pk": 10
   },
   {
     "FARMERNAME": "x",
@@ -79,5 +44,49 @@
     "FARMERCITY": "fs",
     "FARMERFIELD": "sd",
     "pk": 13
+  },
+  {
+    "FARMERNAME": "eswar",
+    "FARMERMOBILE": "1",
+    "FARMERCITY": "k",
+    "FARMERFIELD": "kd",
+    "pk": 14
+  },
+  {
+    "FARMERNAME": "don",
+    "FARMERMOBILE": "1",
+    "FARMERCITY": "ew",
+    "FARMERFIELD": "s",
+    "pk": 15
+  },
+  {
+    "FARMERNAME": "esw",
+    "FARMERCITY": "500",
+    "pk": 16
+  },
+  {
+    "FARMERNAME": "was",
+    "FARMERCITY": "1",
+    "pk": 17
+  },
+  {
+    "FARMERNAME": "vars",
+    "FARMERCITY": "90",
+    "pk": 18
+  },
+  {
+    "ITEMNAME": "s",
+    "ITEMRATE": "2",
+    "pk": 19
+  },
+  {
+    "ITEMNAME": "wsa",
+    "ITEMRATE": "234",
+    "pk": 20
+  },
+  {
+    "ITEMNAME": "qq",
+    "ITEMRATE": "11",
+    "pk": 21
   }
 ]
