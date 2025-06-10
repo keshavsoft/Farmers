@@ -38,13 +38,14 @@
 <body>
     <header>
         <div class="px-3 py-2 text-bg-dark border-bottom">
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
-                <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                    <i class="bi bi-bootstrap me-2" style="font-size: 1.8rem;"></i>
-                    <span class="fs-4">KeshavSoft</span>
-                </a>
+                    <a href="/"
+                        class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                        <i class="bi bi-bootstrap me-2" style="font-size: 1.8rem;"></i>
+                        <span class="fs-4">KeshavSoft</span>
+                    </a>
 
                     <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                         <!-- Home -->
@@ -71,7 +72,13 @@
                         <li class="nav-item">
                             <a class="nav-link text-white text-center" href="./crud.html">
                                 <i class="bi bi-building-add text-info d-block mb-1" style="font-size: 1.5rem;"></i>
-                                Insert Footer
+                                Insert_F
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./tFInTH.html">
+                                <i class="bi bi-journal-plus text-warning d-block mb-1 fs-4"></i>
+                                Insert_H
                             </a>
                         </li>
 
@@ -103,71 +110,89 @@
             </div>
         </div>
 
+
+
     </header>
     <main>
-        <div class="container">
-                <nav aria-label="breadcrumb">
-                <ol class="breadcrumb mb-4">
-                    <li class="breadcrumb-item bi bi-house d-block mb-1"><a href="#"></a></li>
-                    <li class="breadcrumb-item"><a href="#">Sales</a></li>
-                   
-            </nav>
         <section class="py-5 mt-5">
             <div class="container">
-                <div class="row justify-content-center g-5">
-                    <div class="col-md-5">
-                        <div class="card shadow-lg border-0 rounded-4">
-                            <div class="card-header bg-gradient bg-primary text-white text-center rounded-top-4">
-                                <h4 class="mb-0"><i class="bi bi-card-text"></i>Sales</h4>
-                            </div>
-                            <div class="card-body text-center">
-                                <div class="dropdown">
-                                    <button class="btn btn-outline-primary btn-lg dropdown-toggle w-75" type="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false" id="contentDropdownBtn">
-                                        Select File
-                                    </button>
-                                    <ul class="dropdown-menu w-75 shadow-sm start-0">
-                                        <li>
-                                            <a class="dropdown-item d-flex align-items-center" href="create.html">
-                                                <i class="bi bi-plus-circle-fill text-primary me-3 fs-5"></i>
-                                                <span>Insert</span>
-                                            </a>
-                                        </li>
-                                        <li>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-4">
+                        <li class="breadcrumb-item"><a href="../V2.html" class="bi bi-house me-1"></i></a>
+                        <li class="breadcrumb-item">Sales</a></li>
 
-                                        <li>
-                                            <a class="dropdown-item d-flex align-items-center" href="crud.html">
-                                                <i class="bi bi-building-add text-info me-3 fs-5"></i>
-                                                <span>Insert Footer</span>
-                                            </a>
-                                        </li>
-                                        <li>
+                </nav>
+                <section class="py-5 mt-5">
+                    <div class="container">
+                        <div class="row justify-content-center g-5">
+                            <div class="col-md-5">
+                                <div class="card shadow-lg border-0 rounded-4">
+                                    <div
+                                        class="card-header bg-gradient bg-primary text-white text-center rounded-top-4">
+                                        <h4 class="mb-0"><i class="bi bi-card-text"></i>Sales</h4>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <div class="dropdown">
+                                            <button class="btn btn-outline-primary btn-lg dropdown-toggle w-75"
+                                                type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                                id="contentDropdownBtn">
+                                                Select File
+                                            </button>
+                                            <ul class="dropdown-menu w-75 shadow-sm start-0">
+                                                <li>
+                                                    <a class="dropdown-item d-flex align-items-center"
+                                                        href="create.html">
+                                                        <i class="bi bi-plus-circle-fill text-primary me-3 fs-5"></i>
+                                                        <span>Insert</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                <li>
+                                                    <a class="dropdown-item d-flex align-items-center"
+                                                        href="tFInTH.html">
+                                                        <i class="bi bi-journal-plus text-warning me-3 fs-5"></i>
+                                                        <span>Insert Header</span>
+                                                    </a>
+                                                </li>
 
-                                            <a class="dropdown-item d-flex align-items-center" href="./show.html">
-                                                <i class="bi bi-eye text-success me-3 fs-5"></i>
-                                                <span>Show</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item d-flex align-items-center" href="./alter.html">
-                                                <i class="bi bi-pencil-square text-warning me-3 fs-5"></i>
-                                                <span>Alter</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item d-flex align-items-center" href="./delete.html">
-                                                <i class="bi bi-trash-fill text-danger me-3 fs-5"></i>
-                                                <span>Delete</span>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                                <li>
+                                                    <a class="dropdown-item d-flex align-items-center" href="crud.html">
+                                                        <i class="bi bi-building-add text-info me-3 fs-5"></i>
+                                                        <span>Insert Footer</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+
+
+
+                                                    <a class="dropdown-item d-flex align-items-center"
+                                                        href="./show.html">
+                                                        <i class="bi bi-eye text-success me-3 fs-5"></i>
+                                                        <span>Show</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item d-flex align-items-center"
+                                                        href="./alter.html">
+                                                        <i class="bi bi-pencil-square text-warning me-3 fs-5"></i>
+                                                        <span>Alter</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item d-flex align-items-center"
+                                                        href="./delete.html">
+                                                        <i class="bi bi-trash-fill text-danger me-3 fs-5"></i>
+                                                        <span>Delete</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
+                </section>
     </main>
 
     <footer class="mt-5 border-top text-dark" style="margin-top: 7rem !important;">
