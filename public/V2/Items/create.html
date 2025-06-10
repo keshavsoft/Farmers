@@ -41,23 +41,24 @@
 <body>
     <header>
         <div class="px-3 py-2 text-bg-dark border-bottom">
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
-                <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                    <i class="bi bi-bootstrap me-2" style="font-size: 1.8rem;"></i>
-                    <span class="fs-4">KeshavSoft</span>
-                </a>
+                    <a href="/"
+                        class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                        <i class="bi bi-bootstrap me-2" style="font-size: 1.8rem;"></i>
+                        <span class="fs-4">KeshavSoft</span>
+                    </a>
 
                     <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                         <!-- Home -->
                         <li>
-                            <a href="./Items.html" class="nav-link text-white text-center">
+                            <a href="../V2.html" class="nav-link text-white text-center">
                                 <i class="bi bi-house d-block mb-1" style="font-size: 1.5rem;"></i> Home
                             </a>
                         </li>
-                        
-                         <li class="nav-item">
+
+                        <li class="nav-item">
                             <a href="./Items.html" class="nav-link text-white d-flex flex-column align-items-center">
                                 <i class="bi bi-arrow-90deg-left d-block mb-1" style="font-size: 1.5rem;"></i>
                                 <span>Parent</span>
@@ -65,18 +66,24 @@
                         </li>
 
 
-                       
-                         <li class="nav-item active">
+
+                        <li class="nav-item active">
                             <a class="nav-link text-white rounded text-center bg-light bg-opacity-25"
                                 href="./insert.html">
                                 <i class="bi bi-plus-circle-fill text-primary d-block mb-1"
                                     style="font-size: 1.5rem;"></i> Insert
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link text-white text-center" href="./insertfooter.html">
-                                <i class="bi bi-building-add text-info d-block  mb-1"
-                                    style="font-size: 1.5rem;"></i> Insert Footer
+                                <i class="bi bi-building-add text-info d-block  mb-1" style="font-size: 1.5rem;"></i>
+                                Insert_F
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-center" href="./tFInTH.html">
+                                <i class="bi bi-journal-plus text-warning  d-block  mb-1"
+                                    style="font-size: 1.5rem;"></i> Insert_H
                             </a>
                         </li>
                         <li class="nav-item">
@@ -105,18 +112,30 @@
         </div>
 
     </header>
-    <main>
+    <main class="content">
+        <div id="toolbar" class="">
+            <a id="RefreshATagId" href="#"
+                class="btn d-flex justify-content-center align-items-center RefreshBSTableClass bg-gray-600 text-white"
+                style="width: 40px; height: 40px; border-radius: 50%;">
+                <svg class="icon icon-xs" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"
+                    width="16" height="16">
+                    <path
+                        d="M1.161 8a6.84 6.84 0 1 0 6.842-6.84.58.58 0 1 1 0-1.16 8 8 0 1 1-6.556 3.412l-.663-.577a.58.58 0 0 1 .227-.997l2.52-.69a.58.58 0 0 1 .728.633l-.332 2.592a.58.58 0 0 1-.956.364l-.643-.56A6.8 6.8 0 0 0 1.16 8z" />
+                    <path
+                        d="M6.641 11.671V8.843h1.57l1.498 2.828h1.314L9.377 8.665c.897-.3 1.427-1.106 1.427-2.1 0-1.37-.943-2.246-2.456-2.246H5.5v7.352zm0-3.75V5.277h1.57c.881 0 1.416.499 1.416 1.32 0 .84-.504 1.324-1.386 1.324z" />
+                </svg>
+            </a>
+        </div>
         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb mb-4">
-                    <li class="breadcrumb-item bi bi-house d-block mb-1"><a href="#"></a></li>
-                    <li class="breadcrumb-item"><a href="#">Items</a></li>
-                    <li class="breadcrumb-item"><a href="#">Insert <Footer></Footer></a></li>
+                    <li class="breadcrumb-item"><a href="../V2.html" class="bi bi-house me-1"></i></a>
+                    </li>
+                    </a>
+                    <li class="breadcrumb-item"><a href="./Items.html">Items</a></li>
+                    <li class="breadcrumb-item " aria-current="page">Insert</li>
             </nav>
-
-
-        <div class="container mt-5">
-            <div class="card">
+            <div class="card mt-5">
                 <div class="card-body">
                     <form onsubmit="return false" id="FormId">
                         <div class="mb-3 row">

@@ -5,34 +5,6 @@
     "pk": 3
   },
   {
-    "ItemName": "jsaa",
-    "ItemRate": "93",
-    "pk": 4
-  },
-  {
-    "ItemName": "jsaab",
-    "ItemRate": "93",
-    "pk": 5
-  },
-  {
-    "ItemName": "Biscut",
-    "Expenditure": 2343,
-    "ItemRate": 66,
-    "pk": 6
-  },
-  {
-    "ItemName": "Biscut",
-    "Expenditure": "2343",
-    "ItemRate": 66,
-    "pk": 7
-  },
-  {
-    "ItemName": "Biscut",
-    "Expenditure": "23",
-    "ItemRate": 66,
-    "pk": 8
-  },
-  {
     "ITEMNAME": "es",
     "ITEMRATE": "100",
     "pk": 9

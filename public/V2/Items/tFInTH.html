@@ -74,16 +74,16 @@
                             </a>
                         </li>
 
-                        <li class="nav-item active">
-                            <a class="nav-link text-white rounded text-center bg-light bg-opacity-25"
+                        <li class="nav-item ">
+                            <a class="nav-link text-white rounded text-center "
                                 href="./insertfooter.html">
                                 <i class="bi bi-building-add text-info d-block mb-1 fs-4"></i>
                                 Insert_F
                             </a>
                         </li>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white text-center" href="./tFInTH.html">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white text-center bg-light bg-opacity-25" href="./tFInTH.html">
                                 <i class="bi bi-journal-plus text-warning  d-block mb-1" style="font-size: 1.5rem;"></i>
                                 Insert_H
                             </a>
@@ -130,28 +130,37 @@
                 </svg>
             </a>
         </div>
-        <div class="container">
+         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb mb-4">
                     <li class="breadcrumb-item"><a href="../V2.html" class="bi bi-house me-1"></i></a>
                     </li>
                     </a>
                     <li class="breadcrumb-item"><a href="./Items.html">Items</a></li>
-                   <li class="breadcrumb-item " aria-current="page">Insert Footer</li>
+                   <li class="breadcrumb-item " aria-current="page">Insert Header</li>
             </nav>
             <div class="card mt-5">
                 <div class="card-body">
                     <div class="table-responsive">
                         <table id="table" class="table" data-show-footer="true">
                             <thead>
+
                                 <tr>
-                                    <th data-formatter="jFLocalSerialColumn" data-width="50">#</th>
-                                    <th data-field="ITEMNAME" data-width="350">ItemName</th>
-                                    <th data-field="ITEMRATE" data-width="200">ItemRate</th>
-                                    <th data-width="100">Opts.</th>
+                                    <th>
+                                        #
+                                    </th>
+                                    <th>
+                                        ItemName
+                                    </th>
+                                    <th>
+                                        ItemRate
+                                    </th>
+
+
+
                                 </tr>
-                            </thead>
-                            <tfoot>
+
+
                                 <tr>
                                     <th></th>
                                     <th>
@@ -182,6 +191,15 @@
                                         </button>
                                     </th>
                                 </tr>
+                                <tr id="tableHeadRow">
+                                    <th data-formatter="jFLocalSerialColumn"></th>
+                                    <th data-field="ITEMNAME"></th>
+                                    <th data-field="ITEMRATE"></th>
+
+                                </tr>
+                            </thead>
+                            <tfoot>
+
                             </tfoot>
                         </table>
                     </div>
@@ -231,7 +249,7 @@
             return index + 1;
         };
     </script>
-    <script type="module" src="./Js/insertfooter/entryFile.js"></script>
+    <script type="module" src="./Js/TFInTH/entryFile.js"></script>
 </body>
 
 </html>
