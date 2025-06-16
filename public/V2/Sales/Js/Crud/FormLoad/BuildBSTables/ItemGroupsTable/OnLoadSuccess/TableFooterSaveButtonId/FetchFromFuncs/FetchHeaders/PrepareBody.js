@@ -10,7 +10,7 @@ const StartFunc = () => {
     LocalObj.VOUCHERTYPE = jVarLocalVoucherType;
     LocalObj.DATE = jVarLocalDate;
     LocalObj.REFERENCE = jVarLocalReference;
-    LocalObj.VoucherCancelled = jVarLocalVoucherCancelled;
+    LocalObj.VOUCHERCANCELLED = jVarLocalVoucherCancelled;
 
     return LocalObj;
 };
