@@ -5,6 +5,17 @@ const StartFunc = () => {
     let jVarLocalReference = jFLocalTableFooterReferenceInputId();
     let jVarLocalVoucherCancelled = jFLocalTableFooterVoucherCancelledInputId();
 
+    if (
+        jVarLocalPartyName === "" ||
+        jVarLocalVoucherType === "" ||
+        jVarLocalDate === "" ||
+        jVarLocalReference === "" ||
+        jVarLocalVoucherCancelled === ""
+    ) {
+        jFLocalValidateEmptyFields();
+        return false;
+    };
+
     let LocalObj = {};
     LocalObj.PARTYNAME = jVarLocalPartyName;
     LocalObj.VOUCHERTYPE = jVarLocalVoucherType;
@@ -13,6 +24,43 @@ const StartFunc = () => {
     LocalObj.VOUCHERCANCELLED = jVarLocalVoucherCancelled;
 
     return LocalObj;
+};
+
+let jFLocalValidateEmptyFields = () => {
+    let jVarLocalHtmlId = document.getElementById("TableFooterPartyNameInputId");
+    if (jVarLocalHtmlId.value.trim() === "") {
+        jVarLocalHtmlId.classList.add("is-invalid");
+    } else {
+        jVarLocalHtmlId.classList.remove("is-invalid");
+    };
+
+    jVarLocalHtmlId = document.getElementById("TableFooterVoucherTypeInputId");
+    if (jVarLocalHtmlId.value.trim() === "") {
+        jVarLocalHtmlId.classList.add("is-invalid");
+    } else {
+        jVarLocalHtmlId.classList.remove("is-invalid");
+    };
+
+    jVarLocalHtmlId = document.getElementById("TableFooterDateInputId");
+    if (jVarLocalHtmlId.value.trim() === "") {
+        jVarLocalHtmlId.classList.add("is-invalid");
+    } else {
+        jVarLocalHtmlId.classList.remove("is-invalid");
+    };
+
+    jVarLocalHtmlId = document.getElementById("TableFooterReferenceInputId");
+    if (jVarLocalHtmlId.value.trim() === "") {
+        jVarLocalHtmlId.classList.add("is-invalid");
+    } else {
+        jVarLocalHtmlId.classList.remove("is-invalid");
+    };
+
+    jVarLocalHtmlId = document.getElementById("TableFooterVoucherCancelledInputId");
+    if (jVarLocalHtmlId.value.trim() === "") {
+        jVarLocalHtmlId.classList.add("is-invalid");
+    } else {
+        jVarLocalHtmlId.classList.remove("is-invalid");
+    };
 };
 
 let jFLocalTableFooterPartyNameInputId = () => {

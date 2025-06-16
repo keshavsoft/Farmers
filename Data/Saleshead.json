@@ -142,5 +142,13 @@
     "REFERENCE": "shi",
     "VOUCHERCANCELLED": "tha",
     "pk": 18
+  },
+  {
+    "PARTYNAME": "eswaqqq",
+    "VOUCHERTYPE": "www",
+    "DATE": "2025-06-12",
+    "REFERENCE": "ttt",
+    "VOUCHERCANCELLED": "no",
+    "pk": 19
   }
 ]

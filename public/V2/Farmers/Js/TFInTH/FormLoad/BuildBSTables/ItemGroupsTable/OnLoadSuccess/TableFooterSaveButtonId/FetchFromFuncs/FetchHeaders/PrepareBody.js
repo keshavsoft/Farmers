@@ -3,11 +3,39 @@ const StartFunc = () => {
     let jVarLocalItemCategory = jVarLocalTableFooterItemCategoryInputId();
     let jVarLocalItemGroup = jFLocalTableFooterItemGroupInputId();
     let jvarlocalfield = jFLocalToInputTableFooterFarmerFieldInputId();
+
+    let jVarLocalIsValid = true;
+
+    if (jVarLocalItemName === "") {
+        document.getElementById("TableFooterItemNameInputId").classList.add("is-invalid");
+        jVarLocalIsValid = false;
+    };
+
+    if (jVarLocalItemCategory === "") {
+        document.getElementById("TableFooterItemCategoryInputId").classList.add("is-invalid");
+        jVarLocalIsValid = false;
+    };
+
+    if (jVarLocalItemGroup === "") {
+        document.getElementById("TableFooterItemGroupInputId").classList.add("is-invalid");
+        jVarLocalIsValid = false;
+    };
+
+    if (jvarlocalfield === "") {
+        document.getElementById("TableFooterFarmerFieldInputId").classList.add("is-invalid");
+        jVarLocalIsValid = false;
+    };
+
+    if (jVarLocalIsValid === false) {
+        return;
+    };
+
     let LocalObj = {};
     LocalObj.FARMERNAME = jVarLocalItemName;
     LocalObj.FARMERMOBILE = jVarLocalItemCategory;
     LocalObj.FARMERCITY = jVarLocalItemGroup;
     LocalObj.FARMERFIELD = jvarlocalfield;
+
     return LocalObj;
 };
 
@@ -28,6 +56,7 @@ let jVarLocalTableFooterItemCategoryInputId = () => {
         return jVarLocalHtmlId.value.trim();
     };
 };
+
 let jFLocalTableFooterItemGroupInputId = () => {
     let jVarLocalTableFooterItemGroupInputId = 'TableFooterItemGroupInputId'
     let jVarLocalHtmlId = document.getElementById(jVarLocalTableFooterItemGroupInputId);
@@ -36,6 +65,7 @@ let jFLocalTableFooterItemGroupInputId = () => {
         return jVarLocalHtmlId.value.trim();
     };
 };
+
 let jFLocalToInputTableFooterFarmerFieldInputId = () => {
     let jVarLocalHtmlId = 'TableFooterFarmerFieldInputId';
     let jVarLocalTableFooterFarmerFieldInputId = document.getElementById(jVarLocalHtmlId);
@@ -44,4 +74,5 @@ let jFLocalToInputTableFooterFarmerFieldInputId = () => {
         return jVarLocalTableFooterFarmerFieldInputId.value.trim();
     };
 };
-export { StartFunc }
+
+export { StartFunc };
