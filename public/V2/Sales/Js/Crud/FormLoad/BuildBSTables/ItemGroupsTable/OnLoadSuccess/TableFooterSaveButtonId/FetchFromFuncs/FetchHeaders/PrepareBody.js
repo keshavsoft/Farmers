@@ -5,6 +5,16 @@ const StartFunc = () => {
     let jVarLocalReference = jFLocalTableFooterReferenceInputId();
     let jVarLocalVoucherCancelled = jFLocalTableFooterVoucherCancelledInputId();
 
+    if (
+        jVarLocalPartyName === false ||
+        jVarLocalVoucherType === false ||
+        jVarLocalDate === false ||
+        jVarLocalReference === false ||
+        jVarLocalVoucherCancelled === false
+    ) {
+        return false;
+    }
+
     let LocalObj = {};
     LocalObj.PARTYNAME = jVarLocalPartyName;
     LocalObj.VOUCHERTYPE = jVarLocalVoucherType;
@@ -20,8 +30,16 @@ let jFLocalTableFooterPartyNameInputId = () => {
     let jVarLocalHtmlId = document.getElementById(jVarLocalTableFooterPartyNameInputId);
 
     if (jVarLocalHtmlId === null === false) {
-        return jVarLocalHtmlId.value.trim();
-    };
+        let jVarValue = jVarLocalHtmlId.value.trim();
+
+        if (jVarValue === "") {
+            jVarLocalHtmlId.classList.add("is-invalid");
+            return false;
+        } else {
+            jVarLocalHtmlId.classList.remove("is-invalid");
+            return jVarValue;
+        }
+    }
 };
 
 let jFLocalTableFooterVoucherTypeInputId = () => {
@@ -29,8 +47,16 @@ let jFLocalTableFooterVoucherTypeInputId = () => {
     let jVarLocalHtmlId = document.getElementById(jVarLocalTableFooterVoucherTypeInputId);
 
     if (jVarLocalHtmlId === null === false) {
-        return jVarLocalHtmlId.value.trim();
-    };
+        let jVarValue = jVarLocalHtmlId.value.trim();
+
+        if (jVarValue === "") {
+            jVarLocalHtmlId.classList.add("is-invalid");
+            return false;
+        } else {
+            jVarLocalHtmlId.classList.remove("is-invalid");
+            return jVarValue;
+        }
+    }
 };
 
 let jFLocalTableFooterDateInputId = () => {
@@ -38,8 +64,16 @@ let jFLocalTableFooterDateInputId = () => {
     let jVarLocalHtmlId = document.getElementById(jVarLocalTableFooterDateInputId);
 
     if (jVarLocalHtmlId === null === false) {
-        return jVarLocalHtmlId.value.trim();
-    };
+        let jVarValue = jVarLocalHtmlId.value.trim();
+
+        if (jVarValue === "") {
+            jVarLocalHtmlId.classList.add("is-invalid");
+            return false;
+        } else {
+            jVarLocalHtmlId.classList.remove("is-invalid");
+            return jVarValue;
+        }
+    }
 };
 
 let jFLocalTableFooterReferenceInputId = () => {
@@ -47,8 +81,16 @@ let jFLocalTableFooterReferenceInputId = () => {
     let jVarLocalHtmlId = document.getElementById(jVarLocalTableFooterReferenceInputId);
 
     if (jVarLocalHtmlId === null === false) {
-        return jVarLocalHtmlId.value.trim();
-    };
+        let jVarValue = jVarLocalHtmlId.value.trim();
+
+        if (jVarValue === "") {
+            jVarLocalHtmlId.classList.add("is-invalid");
+            return false;
+        } else {
+            jVarLocalHtmlId.classList.remove("is-invalid");
+            return jVarValue;
+        }
+    }
 };
 
 let jFLocalTableFooterVoucherCancelledInputId = () => {
@@ -56,8 +98,16 @@ let jFLocalTableFooterVoucherCancelledInputId = () => {
     let jVarLocalHtmlId = document.getElementById(jVarLocalTableFooterVoucherCancelledInputId);
 
     if (jVarLocalHtmlId === null === false) {
-        return jVarLocalHtmlId.value.trim();
-    };
+        let jVarValue = jVarLocalHtmlId.value.trim();
+
+        if (jVarValue === "") {
+            jVarLocalHtmlId.classList.add("is-invalid");
+            return false;
+        } else {
+            jVarLocalHtmlId.classList.remove("is-invalid");
+            return jVarValue;
+        }
+    }
 };
 
 export { StartFunc };
