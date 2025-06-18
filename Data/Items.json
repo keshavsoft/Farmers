@@ -1,42 +1,7 @@
 [
   {
-    "ITEMNAME": "hbaxb",
-    "ITEMRATE": "200",
-    "pk": 3
-  },
-  {
-    "ITEMNAME": "es",
-    "ITEMRATE": "100",
-    "pk": 9
-  },
-  {
-    "ITEMNAME": "were",
-    "ITEMRATE": "123",
-    "pk": 10
-  },
-  {
-    "ITEMNAME": "edi",
-    "ITEMRATE": "222",
-    "pk": 11
-  },
-  {
-    "ITEMNAME": "vasr",
-    "ITEMRATE": "458",
-    "pk": 12
-  },
-  {
-    "ITEMNAME": "jbwadksj",
-    "ITEMRATE": "123",
-    "pk": 13
-  },
-  {
-    "ITEMNAME": "e",
-    "ITEMRATE": "2",
-    "pk": 14
-  },
-  {
-    "ITEMNAME": "w",
-    "ITEMRATE": "1",
-    "pk": 15
+    "ITEMNAME": "Urea 50 kg",
+    "ITEMRATE": "500",
+    "pk": 1
   }
 ]
