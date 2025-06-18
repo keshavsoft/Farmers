@@ -1,15 +1,5 @@
 [
   {
-    "FARMERNAME": "esw",
-    "FARMERCITY": "500",
-    "pk": 16
-  },
-  {
-    "FARMERNAME": "was",
-    "FARMERCITY": "1",
-    "pk": 17
-  },
-  {
     "FARMERNAME": "vars",
     "FARMERCITY": "90",
     "pk": 18
