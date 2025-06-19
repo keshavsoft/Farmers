@@ -41,63 +41,78 @@
 <body>
     <header>
         <div class="px-3 py-2 text-bg-dark border-bottom">
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-between">
 
-                <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                    <i class="bi bi-bootstrap me-2" style="font-size: 1.8rem;"></i>
-                    <span class="fs-4">KeshavSoft</span>
-                </a>
+                    <!-- Brand -->
+                    <a href="/"
+                        class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                        <i class="bi bi-bootstrap me-2" style="font-size: 1.8rem;"></i>
+                        <span class="fs-4">KeshavSoft</span>
+                    </a>
 
-                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                        <!-- Home -->
-                        <li>
-                            <a href="../index.html" class="nav-link text-white text-center">
-                                <i class="bi bi-house d-block mb-1" style="font-size: 1.5rem;"></i> Home
-                            </a>
-                        </li>
-                       
-                       <li class="nav-item">
-                            <a href="./Items.html" class="nav-link text-white d-flex flex-column align-items-center">
-                                <i class="bi bi-arrow-90deg-left d-block mb-1" style="font-size: 1.5rem;"></i>
-                                <span>Parent</span>
-                            </a>
-                        </li>
+                    <!-- Toggler for mobile -->
+                    <button class="navbar-toggler d-lg-none border-0 text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarContent">
+                        <i class="bi bi-list" style="font-size: 1.8rem;"></i>
+                    </button>
 
+                    <!-- Navbar -->
+                    <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarContent">
+                        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
 
+                            <li class="nav-item">
+                                <a href="../index.html" class="nav-link text-white text-center">
+                                    <i class="bi bi-house d-block mb-1" style="font-size: 1.5rem;"></i> Home
+                                </a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-white text-center" href="./Create.html">
-                                <i class="bi bi-plus-circle-fill text-primary d-block mb-1"
-                                    style="font-size: 1.5rem;"></i> Insert
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white text-center" href="./show.html">
-                                <i class="bi bi-eye-fill text-success d-block mb-1" style="font-size: 1.5rem;"></i> Show
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white text-center" href="./Alter.html">
-                                <i class="bi bi-pencil-square text-warning d-block mb-1" style="font-size: 1.5rem;"></i>
-                                Alter
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white text-center" href="./Delete.html">
-                                <i class="bi bi-x-circle-fill text-danger d-block mb-1" style="font-size: 1.5rem;"></i>
-                                Delete
-                            </a>
-                        </li>
+                            <li class="nav-item">
+                                <a href="./Items.html"
+                                    class="nav-link text-white d-flex flex-column align-items-center">
+                                    <i class="bi bi-arrow-90deg-left d-block mb-1" style="font-size: 1.5rem;"></i>
+                                    <span>Parent</span>
+                                </a>
+                            </li>
 
-                    </ul>
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-center" href="./Create.html">
+                                    <i class="bi bi-plus-circle-fill text-primary d-block mb-1"
+                                        style="font-size: 1.5rem;"></i>
+                                    Insert
+                                </a>
+                            </li>
 
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-center" href="./show.html">
+                                    <i class="bi bi-eye-fill text-success d-block mb-1" style="font-size: 1.5rem;"></i>
+                                    Show
+                                </a>
+                            </li>
 
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-center" href="./Alter.html">
+                                    <i class="bi bi-pencil-square text-warning d-block mb-1"
+                                        style="font-size: 1.5rem;"></i>
+                                    Alter
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-center" href="./Delete.html">
+                                    <i class="bi bi-x-circle-fill text-danger d-block mb-1"
+                                        style="font-size: 1.5rem;"></i>
+                                    Delete
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-
     </header>
+
     <main>
 
         <div class="container mt-5">

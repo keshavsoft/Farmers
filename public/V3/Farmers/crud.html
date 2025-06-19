@@ -42,69 +42,61 @@
     <header>
         <div class="px-3 py-2 text-bg-dark border-bottom">
             <div class="container">
-                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-
+                <div class="d-flex flex-wrap align-items-center justify-content-between">
+                    <!-- Logo -->
                     <a href="/"
                         class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
                         <i class="bi bi-bootstrap me-2" style="font-size: 1.8rem;"></i>
                         <span class="fs-4">KeshavSoft</span>
                     </a>
 
+                    <!-- Toggler for Mobile -->
+                    <button class="navbar-toggler d-lg-none border-0 text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mobileNavbar">
+                        <i class="bi bi-list" style="font-size: 1.8rem;"></i>
+                    </button>
 
-                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-
+                    <!-- Desktop Menu -->
+                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small d-none d-lg-flex">
                         <li>
                             <a href="../V2.html" class="nav-link text-white text-center">
                                 <i class="bi bi-house d-block mb-1" style="font-size: 1.5rem;"></i> Home
                             </a>
                         </li>
-
                         <li class="nav-item">
                             <a href="./Farmers.html" class="nav-link text-white d-flex flex-column align-items-center">
                                 <i class="bi bi-arrow-90deg-left d-block mb-1" style="font-size: 1.5rem;"></i>
                                 <span>Parent</span>
                             </a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link text-white text-center" href="./create.html">
                                 <i class="bi bi-plus-circle-fill text-primary d-block mb-1"
-                                    style="font-size: 1.5rem;"></i>
-                                Insert
+                                    style="font-size: 1.5rem;"></i> Insert
                             </a>
                         </li>
-
                         <li class="nav-item active">
                             <a class="nav-link text-white rounded text-center bg-light bg-opacity-25"
                                 href="./crud.html">
-                                <i class="bi bi-building-add text-info d-block mb-1 fs-4"></i>
-                                Insert_F
+                                <i class="bi bi-building-add text-info d-block mb-1 fs-4"></i> Insert_F
                             </a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link text-white rounded text-center" href="./tFInTH.html">
-                                <i class="bi bi-journal-plus text-warning d-block mb-1 fs-4"></i>
-                                Insert_H
+                                <i class="bi bi-journal-plus text-warning d-block mb-1 fs-4"></i> Insert_H
                             </a>
                         </li>
-
-
                         <li class="nav-item">
                             <a class="nav-link text-white text-center" href="./show.html">
-                                <i class="bi bi-eye-fill text-success d-block mb-1" style="font-size: 1.5rem;"></i>
-                                Show
+                                <i class="bi bi-eye-fill text-success d-block mb-1" style="font-size: 1.5rem;"></i> Show
                             </a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link text-white text-center" href="./alter.html">
-                                <i class="bi bi-pencil-square  text-warning d-block mb-1"
-                                    style="font-size: 1.5rem;"></i>
+                                <i class="bi bi-pencil-square text-warning d-block mb-1" style="font-size: 1.5rem;"></i>
                                 Alter
                             </a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link text-white text-center" href="./Delete.html">
                                 <i class="bi bi-trash-fill text-danger d-block mb-1" style="font-size: 1.5rem;"></i>
@@ -113,11 +105,59 @@
                         </li>
                     </ul>
                 </div>
+
+                <!-- Collapsible Mobile Menu -->
+                <div class="collapse d-lg-none mt-3" id="mobileNavbar">
+                    <div class="row row-cols-3 g-2 text-center">
+                        <div class="col">
+                            <a href="../V2.html" class="nav-link text-white">
+                                <i class="bi bi-house d-block mb-1" style="font-size: 1.5rem;"></i> Home
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="./Farmers.html" class="nav-link text-white">
+                                <i class="bi bi-arrow-90deg-left d-block mb-1" style="font-size: 1.5rem;"></i> Parent
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="./create.html" class="nav-link text-white">
+                                <i class="bi bi-plus-circle-fill text-primary d-block mb-1"
+                                    style="font-size: 1.5rem;"></i> Insert
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="./crud.html" class="nav-link text-white bg-light bg-opacity-25 rounded">
+                                <i class="bi bi-building-add text-info d-block mb-1 fs-4"></i> Insert_F
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="./tFInTH.html" class="nav-link text-white">
+                                <i class="bi bi-journal-plus text-warning d-block mb-1 fs-4"></i> Insert_H
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="./show.html" class="nav-link text-white">
+                                <i class="bi bi-eye-fill text-success d-block mb-1" style="font-size: 1.5rem;"></i> Show
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="./alter.html" class="nav-link text-white">
+                                <i class="bi bi-pencil-square text-warning d-block mb-1" style="font-size: 1.5rem;"></i>
+                                Alter
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="./Delete.html" class="nav-link text-white">
+                                <i class="bi bi-trash-fill text-danger d-block mb-1" style="font-size: 1.5rem;"></i>
+                                Delete
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-
     </header>
+
     <main class="content">
         <div id="toolbar" class="">
             <a id="RefreshATagId" href="#"
@@ -156,47 +196,47 @@
                             <tfoot>
                                 <tr>
                                     <th></th>
+                                    <!-- FarmerName (Required) -->
                                     <th>
                                         <div class="input-group">
                                             <input type="text" class="form-control" id="TableFooterItemNameInputId"
-                                                autocomplete="off" placeholder="Enter FarmerName" required>
+                                                autocomplete="off" placeholder="Enter FarmerName"
+                                                list="FarmerNameDataListId" required>
+                                            <datalist id="FarmerNameDataListId">
+                                            </datalist>
                                             <div class="invalid-feedback">
-                                                Please provide correct Name.
+                                                Please provide a valid Farmer Name.
                                             </div>
                                         </div>
                                     </th>
+
+                                    <!-- FarmerMobile (Optional, numeric only) -->
                                     <th>
                                         <div class="input-group">
                                             <input name="Mobile" id="TableFooterItemCategoryInputId" type="text"
                                                 placeholder="Enter Mobile Number" class="form-control"
-                                                autocomplete="off" required
+                                                autocomplete="off"
                                                 oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)">
-                                            <div class="invalid-feedback">
-                                                Please provide correct Mobile Number.
-                                            </div>
                                         </div>
-
-
                                     </th>
 
+                                    <!-- FarmerCity (Optional) -->
                                     <th>
                                         <div class="input-group">
                                             <input class="form-control" id="TableFooterItemGroupInputId" type="text"
                                                 placeholder="Enter FarmerCity">
-                                            <div class="invalid-feedback">
-                                                Please provide correct City.
-                                            </div>
                                         </div>
                                     </th>
+
+                                    <!-- FarmerField (Optional) -->
                                     <th>
                                         <div class="input-group">
                                             <input class="form-control" id="TableFooterFarmerFieldInputId" type="text"
                                                 placeholder="Enter FarmerField">
-                                            <div class="invalid-feedback">
-                                                Please provide correct Field.
-                                            </div>
                                         </div>
                                     </th>
+
+                                    <!-- Save Button -->
                                     <th class="text-start">
                                         <button class="btn btn-outline-success" type="button"
                                             id="TableFooterSaveButtonId">
@@ -205,6 +245,7 @@
                                     </th>
                                 </tr>
                             </tfoot>
+
                         </table>
                     </div>
                 </div>

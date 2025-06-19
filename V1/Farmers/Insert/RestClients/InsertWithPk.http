@@ -2,6 +2,5 @@ POST http://localhost:3000/V1/Farmers/Insert/InsertWithPk
 Content-Type: application/json
 
 {
-    "Name":"Sree",
-    "Mobile":8341177771
+    "FARMERNAME": "babu"
 }
