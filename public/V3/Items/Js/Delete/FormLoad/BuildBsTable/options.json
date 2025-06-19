@@ -19,7 +19,8 @@
         },
         {
             "field": "ITEMRATE",
-            "title": "ItemRate"
+            "title": "ItemRate",
+            "align": "right"
         },
         {
             "field": "Delete",

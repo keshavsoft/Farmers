@@ -6,36 +6,11 @@ const StartFunc = () => {
 
     let jVarLocalIsValid = true;
 
-    // Validate Farmer Name
     if (jVarLocalItemName === "") {
         document.getElementById("TableFooterItemNameInputId").classList.add("is-invalid");
         jVarLocalIsValid = false;
     } else {
         document.getElementById("TableFooterItemNameInputId").classList.remove("is-invalid");
-    }
-
-    // Validate Farmer Mobile (10-digit number)
-    if (jVarLocalItemCategory === "" || !/^\d{10}$/.test(jVarLocalItemCategory)) {
-        document.getElementById("TableFooterItemCategoryInputId").classList.add("is-invalid");
-        jVarLocalIsValid = false;
-    } else {
-        document.getElementById("TableFooterItemCategoryInputId").classList.remove("is-invalid");
-    }
-
-    // Validate Farmer City
-    if (jVarLocalItemGroup === "") {
-        document.getElementById("TableFooterItemGroupInputId").classList.add("is-invalid");
-        jVarLocalIsValid = false;
-    } else {
-        document.getElementById("TableFooterItemGroupInputId").classList.remove("is-invalid");
-    }
-
-    // Validate Farmer Field
-    if (jvarlocalfield === "") {
-        document.getElementById("TableFooterFarmerFieldInputId").classList.add("is-invalid");
-        jVarLocalIsValid = false;
-    } else {
-        document.getElementById("TableFooterFarmerFieldInputId").classList.remove("is-invalid");
     }
 
     if (jVarLocalIsValid === false) {

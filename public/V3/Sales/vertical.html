@@ -42,29 +42,34 @@
     <header>
         <div class="px-3 py-2 text-bg-dark border-bottom">
             <div class="container">
-                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <div class="d-flex flex-wrap align-items-center justify-content-between">
 
+                    <!-- Brand -->
                     <a href="/"
                         class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
                         <i class="bi bi-bootstrap me-2" style="font-size: 1.8rem;"></i>
                         <span class="fs-4">KeshavSoft</span>
                     </a>
 
-                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                    <!-- Mobile Toggler -->
+                    <button class="navbar-toggler d-lg-none border-0 text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mobileNavbar">
+                        <i class="bi bi-list" style="font-size: 1.8rem;"></i>
+                    </button>
 
+                    <!-- Desktop Navigation -->
+                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small d-none d-lg-flex">
                         <li>
                             <a href="../V2.html" class="nav-link text-white text-center">
                                 <i class="bi bi-house d-block mb-1" style="font-size: 1.5rem;"></i> Home
                             </a>
                         </li>
-
                         <li class="nav-item">
                             <a href="./Sales.html" class="nav-link text-white d-flex flex-column align-items-center">
                                 <i class="bi bi-arrow-90deg-left d-block mb-1" style="font-size: 1.5rem;"></i>
                                 <span>Parent</span>
                             </a>
                         </li>
-
                         <li class="nav-item active">
                             <a class="nav-link text-white rounded text-center bg-light bg-opacity-25"
                                 href="./create.html">
@@ -72,7 +77,6 @@
                                 Insert
                             </a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link text-white text-center" href="#" id="HeaderItemFarmersId">
                                 <i class="bi bi-journal-plus text-warning d-block mb-1 fs-4"></i>
@@ -80,16 +84,40 @@
                             </a>
                         </li>
                     </ul>
+                </div>
 
-
-
+                <!-- Mobile Navigation -->
+                <div class="collapse d-lg-none mt-3" id="mobileNavbar">
+                    <div class="row row-cols-3 g-2 text-center">
+                        <div class="col">
+                            <a href="../V2.html" class="nav-link text-white">
+                                <i class="bi bi-house d-block mb-1" style="font-size: 1.5rem;"></i> Home
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="./Sales.html" class="nav-link text-white">
+                                <i class="bi bi-arrow-90deg-left d-block mb-1" style="font-size: 1.5rem;"></i> Parent
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="./create.html" class="nav-link text-white bg-light bg-opacity-25 rounded">
+                                <i class="bi bi-plus-circle-fill text-primary d-block mb-1"
+                                    style="font-size: 1.5rem;"></i>
+                                Insert
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#" class="nav-link text-white" id="HeaderItemFarmersId">
+                                <i class="bi bi-journal-plus text-warning d-block mb-1 fs-4"></i>
+                                Farmers
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-
-
     </header>
+
     <main class="content">
         <div id="toolbar" class="">
             <a id="RefreshATagId" href="#"

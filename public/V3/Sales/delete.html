@@ -41,29 +41,35 @@
 <body>
     <header>
         <div class="px-3 py-2 text-bg-dark border-bottom">
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-between">
 
-                <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                    <i class="bi bi-bootstrap me-2" style="font-size: 1.8rem;"></i>
-                    <span class="fs-4">KeshavSoft</span>
-                </a>
+                    <!-- Brand -->
+                    <a href="/"
+                        class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                        <i class="bi bi-bootstrap me-2" style="font-size: 1.8rem;"></i>
+                        <span class="fs-4">KeshavSoft</span>
+                    </a>
 
-                   <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                    <!-- Toggler for Mobile -->
+                    <button class="navbar-toggler d-lg-none border-0 text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mobileNavbar">
+                        <i class="bi bi-list" style="font-size: 1.8rem;"></i>
+                    </button>
 
+                    <!-- Desktop Menu -->
+                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small d-none d-lg-flex">
                         <li>
                             <a href="../V2.html" class="nav-link text-white text-center">
                                 <i class="bi bi-house d-block mb-1" style="font-size: 1.5rem;"></i> Home
                             </a>
                         </li>
-
                         <li class="nav-item">
                             <a href="./Sales.html" class="nav-link text-white d-flex flex-column align-items-center">
                                 <i class="bi bi-arrow-90deg-left d-block mb-1" style="font-size: 1.5rem;"></i>
                                 <span>Parent</span>
                             </a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link text-white text-center" href="./create.html">
                                 <i class="bi bi-plus-circle-fill text-primary d-block mb-1"
@@ -71,7 +77,6 @@
                                 Insert
                             </a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link text-white text-center" href="./crud.html">
                                 <i class="bi bi-building-add text-info d-block mb-1" style="font-size: 1.5rem;"></i>
@@ -79,28 +84,23 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white text-center"
-                                href="./tFInTH.html">
+                            <a class="nav-link text-white text-center" href="./tFInTH.html">
                                 <i class="bi bi-journal-plus text-warning d-block mb-1 fs-4"></i>
                                 Insert_H
                             </a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link text-white text-center" href="./show.html">
                                 <i class="bi bi-eye-fill text-success d-block mb-1" style="font-size: 1.5rem;"></i>
                                 Show
                             </a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link text-white text-center" href="./alter.html">
-                                <i class="bi bi-pencil-square  text-warning d-block mb-1"
-                                    style="font-size: 1.5rem;"></i>
+                                <i class="bi bi-pencil-square text-warning d-block mb-1" style="font-size: 1.5rem;"></i>
                                 Alter
                             </a>
                         </li>
-
                         <li class="nav-item active">
                             <a class="nav-link text-white rounded text-center bg-light bg-opacity-25"
                                 href="./delete.html">
@@ -110,14 +110,60 @@
                         </li>
                     </ul>
                 </div>
+
+                <!-- Mobile Menu -->
+                <div class="collapse d-lg-none mt-3" id="mobileNavbar">
+                    <div class="row row-cols-3 g-2 text-center">
+                        <div class="col">
+                            <a href="../V2.html" class="nav-link text-white">
+                                <i class="bi bi-house d-block mb-1" style="font-size: 1.5rem;"></i> Home
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="./Sales.html" class="nav-link text-white">
+                                <i class="bi bi-arrow-90deg-left d-block mb-1" style="font-size: 1.5rem;"></i> Parent
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="./create.html" class="nav-link text-white">
+                                <i class="bi bi-plus-circle-fill text-primary d-block mb-1"
+                                    style="font-size: 1.5rem;"></i> Insert
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="./crud.html" class="nav-link text-white">
+                                <i class="bi bi-building-add text-info d-block mb-1" style="font-size: 1.5rem;"></i>
+                                Insert_F
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="./tFInTH.html" class="nav-link text-white">
+                                <i class="bi bi-journal-plus text-warning d-block mb-1" style="font-size: 1.5rem;"></i>
+                                Insert_H
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="./show.html" class="nav-link text-white">
+                                <i class="bi bi-eye-fill text-success d-block mb-1" style="font-size: 1.5rem;"></i> Show
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="./alter.html" class="nav-link text-white">
+                                <i class="bi bi-pencil-square text-warning d-block mb-1" style="font-size: 1.5rem;"></i>
+                                Alter
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="./delete.html" class="nav-link text-white bg-light bg-opacity-25 rounded">
+                                <i class="bi bi-trash-fill text-danger d-block mb-1 fs-4"></i> Delete
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-
-
-
     </header>
+
     <main>
         <div id="toolbar" class="">
             <a id="RefreshATagId" href="#"
@@ -136,7 +182,7 @@
             <nav class="mt-4" aria-label="breadcrumb">
                 <ol class="breadcrumb mb-4">
                     <li class="breadcrumb-item"><a href="../V2.html" class="bi bi-house me-1"></i></a>
-                   <li class="breadcrumb-item"><a href="./Sales.html">Sales</a></li>
+                    <li class="breadcrumb-item"><a href="./Sales.html">Sales</a></li>
                     <li class="breadcrumb-item">Delete</a></li>
             </nav>
             <div class="card mt-5">
