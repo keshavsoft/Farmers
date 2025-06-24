@@ -1,0 +1,4 @@
+{
+    "PostendPoint": "/V1/Saleshead/SubTable/Insert/InsertAsIs",
+    "GetEndPoint": "/V1/Saleshead/SubTable/Read/AsIs"
+}

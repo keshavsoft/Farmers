@@ -2,7 +2,21 @@
   {
     "PARTYNAME": "war",
     "DATE": "2025-06-23",
-    "pk": 5
+    "pk": 5,
+    "ITEMS": [
+      {
+        "ITEMNAME": "DAP",
+        "RATE": "1000",
+        "pk": 1,
+        "Fk": "5"
+      },
+      {
+        "ITEMNAME": "URIA",
+        "RATE": "1000",
+        "pk": 2,
+        "Fk": "5"
+      }
+    ]
   },
   {
     "PARTYNAME": "eswar",
