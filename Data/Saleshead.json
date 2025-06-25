@@ -5,27 +5,31 @@
     "pk": 5,
     "ITEMS": [
       {
+        "ITEMNAME": "NPK",
+        "RATE": "19",
+        "pk": 3,
+        "Fk": "5",
+        "PK": "3"
+      }
+    ]
+  },
+  {
+    "PARTYNAME": "Car",
+    "DATE": "2025-06-23",
+    "pk": 6,
+    "ITEMS": [
+      {
         "ITEMNAME": "DAP",
         "RATE": "1000",
         "pk": 1,
-        "Fk": "5"
-      },
-      {
-        "ITEMNAME": "URIA",
-        "RATE": "1000",
-        "pk": 2,
         "Fk": "5"
       }
     ]
   },
   {
-    "PARTYNAME": "eswar",
-    "DATE": "2025-06-09",
-    "pk": 10
-  },
-  {
-    "PARTYNAME": "a",
-    "DATE": "2025-06-06",
-    "pk": 11
+    "PARTYNAME": "Mar",
+    "DATE": "2025-06-23",
+    "pk": 7,
+    "ITEMS": []
   }
 ]
