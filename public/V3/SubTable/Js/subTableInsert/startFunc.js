@@ -3,8 +3,10 @@ import { StartFunc as StartFuncShowOnDom } from "./showOnDom.js";
 
 const StartFunc = () => {
     let jVarLocalFromAdmin = true;
-    if (jVarLocalFromAdmin ) {
+
+    if (jVarLocalFromAdmin) {
         StartFuncFormLoad();
+
         StartFuncShowOnDom();
     };
 };

@@ -1,35 +1,22 @@
 [
   {
-    "PARTYNAME": "war",
-    "DATE": "2025-06-23",
-    "pk": 5,
+    "PARTYNAME": "Keshav",
+    "DATE": "2025-06-25",
+    "pk": 1,
     "ITEMS": [
       {
-        "ITEMNAME": "NPK",
-        "RATE": "19",
-        "pk": 3,
-        "Fk": "5",
-        "PK": "3"
-      }
-    ]
-  },
-  {
-    "PARTYNAME": "Car",
-    "DATE": "2025-06-23",
-    "pk": 6,
-    "ITEMS": [
-      {
-        "ITEMNAME": "DAP",
-        "RATE": "1000",
+        "ITEMNAME": "Urea",
+        "RATE": "600",
         "pk": 1,
-        "Fk": "5"
+        "Fk": "1",
+        "PK": "1"
+      },
+      {
+        "ITEMNAME": "28:28:0",
+        "RATE": "1200",
+        "pk": 3,
+        "Fk": "1"
       }
     ]
-  },
-  {
-    "PARTYNAME": "Mar",
-    "DATE": "2025-06-23",
-    "pk": 7,
-    "ITEMS": []
   }
 ]
