@@ -1,11 +1,13 @@
-import ConfigJson from '../../../../../../config.json' with {type: 'json'};
-import { StartFunc as StartFuncFetchHeaders } from "./FetchHeaders/entryFile.js";
+import ConfigJson from '../../../../../config.json' with {type: 'json'};
+
 let StartFunc = async ({ inItemSerial }) => {
     let jVarLocalFilterString = getUrlQueryParams({ inGetKey: "pk" });
-    let jVarFetchHeaders = StartFuncFetchHeaders();
-    let jVarLocalFetchUrl = ConfigJson.DeleteEndPoint;
+    
+    let jVarLocalFetchUrl = ConfigJson.SubTableRowData;
+    
     let jVarFetchUrl = `${jVarLocalFetchUrl}/${jVarLocalFilterString}/ITEMS/${inItemSerial}`
-    let response = await fetch(jVarFetchUrl, jVarFetchHeaders);
+    
+    let response = await fetch(jVarFetchUrl);
 
     return await response;
 };

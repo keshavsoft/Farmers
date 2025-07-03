@@ -5,11 +5,10 @@
     "pk": 1,
     "ITEMS": [
       {
-        "ITEMNAME": "Urea",
-        "RATE": "600",
-        "pk": 1,
-        "Fk": "1",
-        "PK": "1"
+        "ITEMNAME": "NPK",
+        "RATE": "5000",
+        "pk": 4,
+        "Fk": "1"
       }
     ]
   },

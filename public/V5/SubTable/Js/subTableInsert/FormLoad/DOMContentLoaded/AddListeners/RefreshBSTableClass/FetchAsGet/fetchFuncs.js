@@ -4,7 +4,9 @@ let StartFunc = async () => {
     let jVarLocalFilterString = getUrlQueryParams({ inGetKey: "pk" });
 
     let jVarLocalFetchUrl = ConfigJson.GetEndPoint;
+   
     let jVarFetchUrl = `${jVarLocalFetchUrl}/${jVarLocalFilterString}/ITEMS`
+   
     let response = await fetch(jVarFetchUrl);
 
     return await response;
