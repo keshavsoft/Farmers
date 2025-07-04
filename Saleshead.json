@@ -86,5 +86,37 @@
             "REFERENCE": 0,
             "VOUCHER_CANCELLED": 0
         }
+    ],
+    "Columns": [
+        {
+            "field": "PARTYNAME",
+            "title": "Title",
+            "unique": true,
+            "type": "STRING"
+        },
+        {
+            "field": "VOUCHERTYPE",
+            "title": "Start Date",
+            "unique": false,
+            "type": "STRING"
+        },
+        {
+            "field": "DATE",
+            "title": "Class Name",
+            "unique": false,
+            "type": "STRING"
+        },
+        {
+            "field": "REFERENCE",
+            "title": "Class Name",
+            "unique": false,
+            "type": "STRING"
+        },
+        {
+            "field": "VOUCHER_CANCELLED",
+            "title": "Class Name",
+            "unique": false,
+            "type": "STRING"
+        }
     ]
 }

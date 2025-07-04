@@ -1,0 +1,10 @@
+POST http://localhost:3000/SV1/Saleshead/Validate/AsIs
+Content-Type: application/json
+
+{
+	"VOUCHER_CANCELLED" : "",
+	"REFERENCE" : "",
+	"DATE" : "",
+	"VOUCHERTYPE" : "",
+	"PARTYNAME" : ""
+}

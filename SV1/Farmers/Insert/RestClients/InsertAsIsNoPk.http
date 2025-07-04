@@ -1,0 +1,9 @@
+POST http://localhost:3000/SV1/Farmers/Insert/InsertAsIsNoPk
+Content-Type: application/json
+
+{
+	"FarmerField" : "",
+	"FarmerCity" : "",
+	"FarmerMobile" : "",
+	"FarmerName" : ""
+}

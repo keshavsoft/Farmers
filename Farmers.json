@@ -74,5 +74,31 @@
             "ITEMGROUP": 0,
             "GUID": 0
         }
+    ],
+      "Columns": [
+        {
+            "field": "FarmerName",
+            "title": "Title",
+            "unique": true,
+            "type": "STRING"
+        },
+        {
+            "field": "FarmerMobile",
+            "title": "Start Date",
+            "unique": false,
+            "type": "STRING"
+        },
+        {
+            "field": "FarmerCity",
+            "title": "Class Name",
+            "unique": false,
+            "type": "STRING"
+        },
+          {
+            "field": "FarmerField",
+            "title": "Class Name",
+            "unique": false,
+            "type": "STRING"
+        }
     ]
 }

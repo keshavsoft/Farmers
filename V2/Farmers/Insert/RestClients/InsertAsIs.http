@@ -1,0 +1,9 @@
+POST http://localhost:3000/V2/Farmers/Insert/InsertAsIs
+Content-Type: application/json
+
+{
+	"FarmerField" : "",
+	"FarmerCity" : "",
+	"FarmerMobile" : "",
+	"FarmerName" : "Keshav"
+}

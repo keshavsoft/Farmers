@@ -1,0 +1,4 @@
+POST http://localhost:3000/SV1/Saleshead/Read/SelColumns
+Content-Type: application/json
+
+[]

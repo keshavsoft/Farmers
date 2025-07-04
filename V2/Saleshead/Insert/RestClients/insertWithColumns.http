@@ -1,0 +1,10 @@
+POST http://localhost:3000/V2/Saleshead/Insert/InsertWithColumns
+Content-Type: application/json
+
+{
+	"VOUCHER_CANCELLED" : "",
+	"REFERENCE" : "",
+	"DATE" : "",
+	"VOUCHERTYPE" : "",
+	"PARTYNAME" : ""
+}
