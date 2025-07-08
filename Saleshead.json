@@ -1,4 +1,5 @@
 {
+    "Vertical": [],
     "header": [
         [
             "PARTYNAME",
@@ -11,16 +12,16 @@
     "data": [],
     "columns": [
         {
-            "field": "PARTYNAME",
+            "field": "FarmerName",
             "title": "Farmer Name",
-            "unique": true,
-            "type": "STRING"
+            "isDataListEmpty": true
         },
         {
-            "field": "VOUCHERTYPE",
+            "field": "Date",
             "title": "Date",
             "unique": false,
-            "type": "STRING"
+            "type": "date",
+            "isInput": true
         },
         {
             "field": "REFERENCE",
