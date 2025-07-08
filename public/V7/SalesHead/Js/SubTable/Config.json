@@ -1,0 +1,27 @@
+{
+    "TableName":  "/V3/Saleshead",
+    "showFooter": true,
+    "toolbar": "#toolbar",
+    "searchable": true,
+    "search": true,
+    "columns": [
+        {
+            "field": "PARTYNAME",
+            "title": "Farmer Name",
+            "unique": true,
+            "type": "STRING"
+        },
+        {
+            "field": "VOUCHERTYPE",
+            "title": "Date",
+            "unique": false,
+            "type": "STRING"
+        },
+        {
+            "field": "REFERENCE",
+            "title": "Class Name",
+            "unique": false,
+            "type": "STRING"
+        }
+    ]
+}

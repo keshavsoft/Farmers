@@ -1,0 +1,1 @@
+{"TableName":"/V3/Saleshead","columns":[{"field":"PARTYNAME","title":"Farmer Name","unique":true,"type":"STRING"},{"field":"VOUCHERTYPE","title":"Date","unique":false,"type":"STRING"},{"field":"REFERENCE","title":"Class Name","unique":false,"type":"STRING"}]}

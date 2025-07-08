@@ -12,5 +12,34 @@
     "FarmerCity": "",
     "FarmerField": "",
     "pk": 2
+  },
+  {
+    "FarmerName": "Krishna",
+    "FarmerMobile": "07396508711",
+    "FarmerCity": "Vishakapatnam",
+    "FarmerField": "nj",
+    "pk": 3
+  },
+  {
+    "FarmerName": "jb",
+    "FarmerMobile": "",
+    "FarmerCity": "",
+    "FarmerField": "",
+    "pk": 4,
+    "ITEMS": [
+      {
+        "ITEMNAME": "kjs",
+        "RATE": "10000",
+        "pk": 1,
+        "Fk": "4"
+      }
+    ]
+  },
+  {
+    "FarmerName": "nsj",
+    "FarmerMobile": "",
+    "FarmerCity": "",
+    "FarmerField": "",
+    "pk": 5
   }
 ]
