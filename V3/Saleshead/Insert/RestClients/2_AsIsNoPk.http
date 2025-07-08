@@ -1,0 +1,10 @@
+POST http://localhost:3000/V3/Saleshead/Insert/AsIsNoPk
+Content-Type: application/json
+
+{
+  "PARTYNAME": "",
+  "VOUCHERTYPE": "",
+  "DATE": "",
+  "REFERENCE": "",
+  "VOUCHER_CANCELLED": ""
+}

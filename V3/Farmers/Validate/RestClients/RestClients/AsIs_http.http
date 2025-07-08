@@ -1,0 +1,9 @@
+POST http://localhost:3000/V3/Farmers/Validate/Insert/http
+Content-Type: application/json
+
+{
+  "FarmerName": "",
+  "FarmerMobile": "",
+  "FarmerCity": "",
+  "FarmerField": ""
+}

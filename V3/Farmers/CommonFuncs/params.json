@@ -1,0 +1,1 @@
+{"TableName":"Farmers","DataPath":"Data","Columns":["FarmerName","FarmerMobile","FarmerCity","FarmerField"],"ColumnsWithSchema":[{"field":"FarmerName","title":"Name","unique":true,"isInput":true},{"field":"FarmerMobile","title":"Mobile","isInput":true},{"field":"FarmerCity","title":"City","isInput":true},{"field":"FarmerField","title":"Field","isInput":true}]}

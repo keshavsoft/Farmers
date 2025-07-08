@@ -1,0 +1,10 @@
+POST http://localhost:3000/V3/Saleshead/Validate/Insert/http
+Content-Type: application/json
+
+{
+  "PARTYNAME": "",
+  "VOUCHERTYPE": "",
+  "DATE": "",
+  "REFERENCE": "",
+  "VOUCHER_CANCELLED": ""
+}
