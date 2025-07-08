@@ -1,1 +1,1 @@
-{"TableName":"/V3/TasksTable","columns":[{"field":"FarmerName","title":"Farmer Name","unique":true,"isInput":true},{"field":"Date","title":"Date","unique":false,"type":"date","isInput":true},{"field":"REFERENCE","title":"Class Name","unique":false,"type":"STRING"}]}
+{"TableName":"/V3/Saleshead","columns":[{"field":"FarmerName","title":"Farmer Name","unique":true,"isInput":true},{"field":"Date","title":"Date","unique":false,"type":"date","isInput":true},{"field":"REFERENCE","title":"Class Name","unique":false,"type":"STRING"}]}
