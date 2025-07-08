@@ -1,0 +1,5 @@
+POST http://localhost:3000/V4/Saleshead/SubTable/Insert/InsertAsIs/{RowIndex}/{KeyName}
+Content-Type: application/json
+
+{
+}

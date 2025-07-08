@@ -12,6 +12,8 @@ import { router as routerFromSV1 } from "./SV1/routes.js";
 import { router as routerFromV2 } from "./V2/routes.js";
 import { router as routerFromV3 } from "./V3/routes.js";
 import { router as routerFromSV2 } from "./SV2/routes.js";
+import { router as routerFromV4 } from "./V4/routes.js";
+import { router as routerFromSV3 } from "./SV3/routes.js";
 
 app.use(express.static('public'));
 app.use(cookieParser());
@@ -22,6 +24,8 @@ app.use("/SV1", StartFuncFromMiddleware, routerFromSV1);
 app.use("/V2", routerFromV2);
 app.use("/V3", routerFromV3);
 app.use("/SV2", StartFuncFromMiddleware, routerFromSV2);
+app.use("/V4", routerFromV4);
+app.use("/SV3", StartFuncFromMiddleware, routerFromSV3);
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`);

@@ -1,0 +1,8 @@
+POST http://localhost:3000/V4/Saleshead/Insert/AsIsNoPk
+Content-Type: application/json
+
+{
+  "FarmerName": "",
+  "Date": "",
+  "REFERENCE": ""
+}

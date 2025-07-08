@@ -1,0 +1,8 @@
+POST http://localhost:3000/SV3/Saleshead/Insert/SchemaColumnsOnly
+Content-Type: application/json
+
+{
+  "FarmerName": "",
+  "Date": "",
+  "REFERENCE": ""
+}
